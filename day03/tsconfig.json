@@ -1,0 +1,29 @@
+{
+  /* ts 컴파일러는 두가지 옵션을 입력받는데, 첫번째는 컴파일 옵션이고, 두번째는 대상 파일 목록이다.*/
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    "target": "es5",                      /* 트랜스파일할 js버전을 선택한다. 노드의 최신버전을 사용하고 있다면 es6를 사용할 수 있다. */
+    "module": "commonjs",                 /* 사용하는 두가지 옵션이 있는데, amd와 commonJS이다. 컴파일되어 만들어지는 es5 js파일은  웹과 노드 양쪽에서 각각 다르게 동작함 */
+                                          /* 웹에서는 AMD 동작방식이고, 웹이 아닌 환경에서는 commonJS방식으로 동작한다. */
+    "sourceMap": true,                    /* 트랜스파일된 js파일이 어떤 ts파일에 해당하는지 알려주는 속성 */
+    "outDir": "dist",                     /* baseUrl과 마찬가지로 baseUrl 설정값을 기준으로 트랜스파일된 파일을 저장할 하위폴더 이름을 사용한다. */
+    "downlevelIteration": true,           /* 생성기(generator) 에서 동작하기 위한 속성 */
+
+    /* Strict Type-Checking Options */
+    "noImplicitAny": false,               /* 변수에 타입을 명시하지 않은 코드의 경우 암시적으로 any타입을 설정한 것으로 간주함, 이 경우 ts의 장점을 사용하는 것이 아니므로 오류 메세지를 날려줌 */
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",           /* 모듈값이 common이면 node에서 동작하는 것이니까 node로 설정하고 웹이라면 classic으로 설정한다. */
+    "baseUrl": ".",                       /* 트랜스파일된 js파일을 저장하는 dir설정 따라서 현재 dir인 . 으로 설정한다 */
+    "esModuleInterop": true,              /* js 오픈소스 중에서는 웹에서 동작한다는 가정으로 만들어진 것들이 존재한다. 이들은 commonjs기반 동작하는 코드에 혼란을 줄 가능성이 있기 때문에
+                                              이런 라이브러리등을 사용하려면 이 속성을 반드시 true로 해야 정상 동작한다.*/
+
+    /* Path */
+    "paths": {"*": ["node_modules/*"] }   /* 소스파일에서 import할 때 사용되는 경로를 미리 지정할 수 있다.*/
+  },
+
+  //타입스크립트 파일이 src폴더와 그 하위폴더에 있다는 뜻
+  "include": ["src/**/*"]
+}
