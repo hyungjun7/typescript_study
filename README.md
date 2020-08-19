@@ -11,3 +11,6 @@ Day02
   2. 타입스크립트 객체(Object)와 인터페이스(Interface) 및 클래스(Class)
   3. 전개 연산자(Spread operator)와 타입 단언(Type assertion)
   
+Day03
+  1. 타입스크립트 함수
+  
