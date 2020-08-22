@@ -180,10 +180,3 @@ const makeCar4 = (key: string, value: string): keyType => ({[key]: value});
             return this;
         }
     }
-    
-
-
-
-
-
- 
