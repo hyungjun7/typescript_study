@@ -29,3 +29,17 @@ Day04
   4. 함수 구현 기법
   5. 클래스 메서드
   
+Day05
+  1. 배열(Array)
+  2. 인덱스 연산자(index operator)
+  3. 배열의 비구조화 할당
+  4. for ...in, for ...of
+  5. 제네릭(generic)
+  6. 선언형 프로그래밍
+  7. filter, map, reduce
+  8. 순수 함수(pure function)
+  9. 불변성(immutable)과 가변성(mutable)
+  10. 얕은 복사(shallow-copy)와 깊은 복사(deep-copy)
+  11. 가변 인수(variadic arguments)
+  12. 튜플(tuple)
+  
