@@ -42,4 +42,12 @@ Day05
   10. 얕은 복사(shallow-copy)와 깊은 복사(deep-copy)
   11. 가변 인수(variadic arguments)
   12. 튜플(tuple)
+ 
+ Day06
+  1. 반복기(for ..of, for ..in)
+  2. Iterator<T>와 Iterable<T> 인터페이스
+  3. 생성기(generator)
+  4. function* 과 yield
+  5. 세미 코루틴(semi-coroutine)\
+  6. yield*
   
