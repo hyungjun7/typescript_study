@@ -51,3 +51,10 @@ Day05
   5. 세미 코루틴(semi-coroutine)\
   6. yield*
   
+Day07
+  1. 비동기 방식 API
+  2. Promise
+  3. Promise.resolve와 reject
+  4. Promise.all과 race
+  5. async/await
+  
