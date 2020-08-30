@@ -58,3 +58,12 @@ Day07
   4. Promise.all과 race
   5. async/await
   
+Day08
+  1. 함수형 프로그래밍(functional programing)
+  2. 제네릭 함수(generic function)
+  3. 고차 함수(high-order function)
+  4. 부분 적용 함수(partially function)
+  5. 클로저(closure)
+  6. 함수 조합(function composition)
+  7. compose와 pipe함수
+  8. 포인트가 없는 함수(pointless function)
