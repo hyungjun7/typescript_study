@@ -67,3 +67,27 @@ Day08
   6. 함수 조합(function composition)
   7. compose와 pipe함수
   8. 포인트가 없는 함수(pointless function)
+  
+Day09
+  1. 제네릭 프로그래밍(generic programing)
+  2. 제네릭 타입 제약(generic type constraint)
+  3. new 타입 제약(new type..)
+  4. 인덱스 타입 제약(index type constraint)
+  5. 대수 데이터 타입(algebraic data type)
+  6. 타입 가드(type guard)
+  
+Day10
+  1. F-바운드 다형성(F-Bound polymorphism)
+  2. nullable 타입
+  3. 옵션 체이닝 연산자(optional chaining operator)
+  4. 널 병합 연산자(nullish coalescing operator)
+  5. 함수형 nullable 타입
+  6. Some<T> 와 None<T>
+  
+Day11
+  1. 모나드(Monad)
+  2. 타입 클래스(type Class)
+  3. 고차 타입(higher-kinded type)
+  4. 카테고리 이론
+  5. 판타지랜드 규격
+  6. Identity 모나드
